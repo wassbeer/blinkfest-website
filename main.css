@@ -7,9 +7,9 @@ body{
 }
 
 li{
-	font-size: 70px;
-	font-family: 'Pangolin', bold;
-	text-shadow: 2px 2px #ff0000;
+	font-size: 100px;
+	font-family: 'Bahiana', cursive;
+	
 }
 
 .container{
@@ -19,4 +19,6 @@ li{
 
 .nav li{
 	display: inline;
+	margin-left: 20%;
+	margin-right: 20%;
 }
