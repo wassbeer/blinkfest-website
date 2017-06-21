@@ -1,9 +1,12 @@
 
 body{
-	background-image: url("https://img0.etsystatic.com/137/1/8946997/il_340x270.1005409272_em8v.jpg");
-	background-size: 100% 38rem;
+	/*background: url("https://img0.etsystatic.com/137/1/8946997/il_340x270.1005409272_em8v.jpg") no-repeat top center fixed;
+    background-size: 100% 38rem;*/
+    background: url(https://media.giphy.com/media/13QslXgKOQzmhy/giphy.gif);
+    background-size: 100% 38rem;
 	/*Once we want text to not align centered we need to edit the text-align property of body*/
 	text-align: center;
+	color: white;
 }
 
 li{
@@ -19,4 +22,8 @@ li{
 
 .nav li{
 	display: inline;
+}
+
+.highheight{
+	height: 2000px;
 }
