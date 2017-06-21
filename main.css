@@ -1,23 +1,47 @@
 
+a{
+	text-decoration: none;
+	color: white;
+}
+
 body{
-	/*background: url("https://img0.etsystatic.com/137/1/8946997/il_340x270.1005409272_em8v.jpg") no-repeat top center fixed;
+	/* 1. background: url("https://img0.etsystatic.com/137/1/8946997/il_340x270.1005409272_em8v.jpg") no-repeat top center fixed;
     background-size: 100% 38rem;*/
-    background: url(https://media.giphy.com/media/13QslXgKOQzmhy/giphy.gif);
-    background-size: 100% 38rem;
-	/*Once we want text to not align centered we need to edit the text-align property of body*/
+  /*background: url(https://media.giphy.com/media/13QslXgKOQzmhy/giphy.gif) no-repeat top center fixed;*/
+    /* 3. background: url(https://media.giphy.com/media/wleYLKWXEGudi/giphy.gif) no-repeat top center fixed;*/
+   /* background: url( https://media.giphy.com/media/gw3RX8HWJygFr5pC/giphy.gif) no-repeat top center fixed;*/
+  /* background: url( https://media.giphy.com/media/3o7bu9zwfieCd1R9HG/giphy.gif) no-repeat top center fixed;*/
+   /*background: url(images/ezgif.com-crop.gif) no-repeat top center fixed;*/
+   background: url(images/ezgif.com-gif-maker.gif) no-repeat top center fixed;
+/*background: url(images/ezgif.com-crop_1.gif) no-repeat top center fixed;*/
+/*background: url(https://media.giphy.com/media/l3vRbTrGdpZrjjco8/giphy.gif) no-repeat top center fixed;*/
+/*background: url(images/source.gif) no-repeat top center fixed;*/
+    background-size: 100% 45rem;
+	font-family: 'Bahiana', cursive;
 	text-align: center;
 	color: white;
 }
 
+h1{
+	font-size: 8rem;
+}
+
 li{
-	font-size: 70px;
-	font-family: 'Pangolin', bold;
-	text-shadow: 2px 2px #ff0000;
+	font-size: 7rem;
+	font-family: 'Bahiana', cursive;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+nav{
+
+
 }
 
 .container{
-	margin-left: 10%;
-	margin-right: 10%;
+	padding-top: 2%;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 .nav li{
