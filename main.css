@@ -8,15 +8,17 @@ body{
 
 li{
 	font-size: 70px;
-	font-family: 'Pangolin', bold;
-	text-shadow: 2px 2px #ff0000;
+	font-family: 'Walter Turncoat';
+	color: #FFFFFF;
 }
 
 .container{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .nav li{
 	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
 }
