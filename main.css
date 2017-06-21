@@ -1,0 +1,22 @@
+
+body{
+	background-image: url("https://img0.etsystatic.com/137/1/8946997/il_340x270.1005409272_em8v.jpg");
+	background-size: 100% 38rem;
+	/*Once we want text to not align centered we need to edit the text-align property of body*/
+	text-align: center;
+}
+
+li{
+	font-size: 70px;
+	font-family: 'Pangolin', bold;
+	text-shadow: 2px 2px #ff0000;
+}
+
+.container{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.nav li{
+	display: inline;
+}
