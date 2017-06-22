@@ -12,7 +12,7 @@ body{
    /* background: url( https://media.giphy.com/media/gw3RX8HWJygFr5pC/giphy.gif) no-repeat top center fixed;*/
   /* background: url( https://media.giphy.com/media/3o7bu9zwfieCd1R9HG/giphy.gif) no-repeat top center fixed;*/
    /*background: url(images/ezgif.com-crop.gif) no-repeat top center fixed;*/
-   background: url(images/ezgif.com-gif-maker.gif) no-repeat top center fixed;
+   background: url(images/ezgif.com-gif-maker2.gif) no-repeat top center fixed;
 /*background: url(images/ezgif.com-crop_1.gif) no-repeat top center fixed;*/
 /*background: url(https://media.giphy.com/media/l3vRbTrGdpZrjjco8/giphy.gif) no-repeat top center fixed;*/
 /*background: url(images/source.gif) no-repeat top center fixed;*/
@@ -38,10 +38,28 @@ nav{
 
 }
 
+span{
+
+color: #8000ff;
+
+}
+
+.artists{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-size: 4.8rem;
+    line-height: 5.2rem;
+    margin-top: 0rem;
+    font-style: bold;
+    font-family: 'Anton', sans-serif;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 .container{
 	padding-top: 3%;
-	margin-left: 3%;
-	margin-right: 3%;
+	margin-left: 12%;
+	margin-right: 12%;
 }
 
 .nav li{
@@ -51,3 +69,97 @@ nav{
 .highheight{
 	height: 2000px;
 }
+
+/*blinking artists*/
+
+.box {
+  background-color: #2D2D2D;
+  height: 2.2vw;
+  width: 2.2vw;
+  display: inline-block;
+  border-radius: 2.2vw;
+  margin: 0.1vw;
+}
+
+.color-picker {
+  display: block;
+  width: 100%;
+  height: 15vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.cyan {
+  background-color: #1ebacc;
+  color: #1ebacc;
+}
+
+.yellow {
+  background-color: #ffea4e;
+  color: #ffea4e;
+}
+
+.magenta {
+  background-color: #ff2f9e;
+  color: #ff2f9e;
+}
+
+.select-color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 6vw;
+  width: 17vw;
+  font-size: 2.65vw;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+.select-color.cyan {
+  margin: 0 3vw;
+  border-bottom: 1vw solid #1ebacc;
+}
+
+.select-color.yellow {
+  border-bottom: 1vw solid #ffea4e;
+}
+
+.select-color.magenta {
+  margin: 0 3vw;
+  border-bottom: 1vw solid #ff2f9e;
+}
+
+.not-selected{
+  color: #2D2D2D;
+  border-bottom: 1vw solid #2D2D2D !important;
+}
+
+.toggle-blink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  color: white;
+  font-weight: bold;
+  height: 6vw;
+  width: 20vw;
+  border-radius: 0;
+  opacity: 0.7;
+  background-color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border: 0.5vw dotted white !important;
+  font-size: 2.75vw;
+}
+
+.opacity {
+  opacity: 1 !important;
+}
+
+.blink {
+  opacity: 0.7;
+/*}*/
