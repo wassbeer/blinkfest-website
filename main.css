@@ -38,6 +38,20 @@ nav{
 
 }
 
+.columnone{
+	height: 300px;
+	width: 30%;
+	border: solid 5px;
+	display: inline;
+}
+
+.columntwo{
+	height: 300px;
+	width: 30%;
+	border: solid 5px;
+	display: inline;
+}
+
 .container{
 	padding-top: 3%;
 	margin-left: 3%;
@@ -50,4 +64,10 @@ nav{
 
 .highheight{
 	height: 2000px;
+}
+
+.twocolumns{
+	width: 100%;
+	text-align: center;
+	display: inline;
 }
