@@ -15,6 +15,7 @@ $(document).ready(function(){
 	$(this).css("text-decoration", "none");
 	});
 
+
  $("span").hover(
 // function 1 of 2 is declared for when mouse enters
 	function() {
@@ -29,6 +30,8 @@ $(document).ready(function(){
 	// $(this).fadeIn(5000);
 	$(this).css("color", "#8000ff");
 	});
+
+
 
 
 
