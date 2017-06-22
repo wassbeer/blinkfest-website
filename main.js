@@ -41,36 +41,4 @@ $(document).ready(function(){
 // 	// a comma indicated the border between the first and the second function
 // 	});
 
-var main = function(){
-  var colorClass = '';
-  var blink;
-  var toggleBlink = function(){
-  if (!blink){
-    // a set interval function changes the colours by interval
-    blink = setInterval(function(){
-      // a query selector targets class box.magenta and toggles class blink
-      // 1. making 3 classes for spans
-      // 2. creating class blink
-      $('.box.magenta').css('color', 'red');
-      $('.box.yellow').toggleClass('blink');
-      $('.box.cyan').toggleClass('blink');
-      // setting the interval
-    }, 350);
-  } else {
-    // not sure whether we should put it in an if else statement
-    window.clearInterval(blink);
-    blink = null;
-  }
-};
-
-  $('.container').on('mouseenter', function(){
-    if (colorClass){
-      $('.toggle-blink').toggleClass('opacity');
-      toggleBlink();
-    } 
-  });
-}
-
-$(document).ready(main);
-
 	}); 
