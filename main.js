@@ -1,6 +1,6 @@
 $(document).ready(function(){ 
 
- $("a").hover(
+ $(".nav li").hover(
 // function 1 of 2 is declared for when mouse enters
 	function() {
 	// the color property of .nav li will turn red so its text will
@@ -16,7 +16,7 @@ $(document).ready(function(){
 	});
 
 
- $("span").hover(
+ $("span a").hover(
 // function 1 of 2 is declared for when mouse enters
 	function() {
 	// the color property of .nav li will turn red so its text will
