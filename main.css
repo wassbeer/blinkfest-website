@@ -20,10 +20,12 @@ body{
 	font-family: 'Bahiana', cursive;
 	text-align: center;
 	color: white;
+	height: 1000px;
 }
 
 h1{
 	font-size: 8rem;
+	margin: 0;
 }
 
 li{
@@ -35,27 +37,63 @@ li{
 
 nav{
 
+}
 
+ul{
+/*	built-in css of ul
+*/	-webkit-padding-start: 0px;
+}
+
+.twocolumns{
+	position: relative;
+	margin: 0 auto;
+	margin-left: 15%;
+	margin-top: 10%;
+    width: 87%;
+    clear: both;
+}
+
+.backgroundother{
+background: url("images/invert.png");
+}
+
+.backgroundone{
+background: url("images/noninvert.png");
+}
+
+.buytickets{
+	font-size: 2em;
+	font-family: 'Bahiana', cursive;
+	margin: 0 auto;
+	background-color: white;
 }
 
 .columnone{
-	height: 300px;
-	width: 30%;
-	border: solid 5px;
+	height: 500px;
+	width: 40%;
+	/*border: solid 5px;*/
 	display: inline;
+	float: left;
 }
 
 .columntwo{
-	height: 300px;
-	width: 30%;
-	border: solid 5px;
-	display: inline;
+	height: 500px;
+	width: 40%;
+/*	border: solid 5px;
+*/	display: inline;
+	float: left;
+}
+
+.img-container{
+
 }
 
 .container{
 	padding-top: 3%;
 	margin-left: 3%;
 	margin-right: 3%;
+	margin-bottom: 3%;
+	padding-bottom: 5%;
 }
 
 .nav li{
@@ -66,8 +104,86 @@ nav{
 	height: 2000px;
 }
 
-.twocolumns{
-	width: 100%;
-	text-align: center;
-	display: inline;
+/*// Form*/
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 90%;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: black;
+  /*background: url(images/geometrica.png) no-repeat top center fixed;*
+ /* background-color: #C4979D;*/
+/*  background-size: 100% 45rem;*/
+  height: 400px;
 }
+
+form div + div {
+  margin-top: 2em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  font-size: 10em;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  width: 50%;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+
+
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: 'Bahiana', cursive;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+/*  font-size: 7em;*/
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 8em;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
+
+#mail{
+	font-size: 10em;
+	height: 1em;
+}
+
+ #map {
+        height: 400px;
+        width: 100%;
+       }
+
