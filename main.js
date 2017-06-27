@@ -3,16 +3,6 @@ $(document).ready(function(){
 var x = 4; 
 var y = 3;
 
-
- $("a").hover(
-	function() {
-
-	$(this).css("text-decoration", "underline");
-	}, 
-	function(){
-	$(this).css("text-decoration", "none");
-	});
-
   $(".backgroundother").mouseenter(
 	function() {
 	x = x + 1;
