@@ -1,7 +1,7 @@
 $(document).ready(function(){ 
 
-var x = 1; 
-var y = 1;
+var x = 4; 
+var y = 3;
 
 
  $("a").hover(
@@ -22,8 +22,8 @@ var y = 1;
   $(".backgroundother").mouseenter(
 	function() {
 	x = x + 1;
-  	console.log(x);
-  	if(x%2===0){
+  	// console.log(x);
+  	if(x%5===0){
 	$(this).css("background", "url('images/noninvert.png')");
 	// }
 }else{$(this).css("background", "url('images/invert.png')")}}
@@ -34,7 +34,7 @@ var y = 1;
 	function() {
 	y = y + 1;
   	console.log(y);
-  	if(y%2===0){
+  	if(y%5===0){
 	$(this).css("background", "url('images/invert.png')");
 	// }
 }else{$(this).css("background", "url('images/noninvert.png')")}}
