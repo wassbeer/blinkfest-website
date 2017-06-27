@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+    /*text-decoration: none;
+	color: white;*/
+}
 
 a{
 	text-decoration: none;
-	color: white;
+	color: #8000ff;
 }
 
 body{
@@ -11,9 +16,19 @@ body{
 	margin: 0 0;
 }
 
+form h1{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
 h1{
 	font-size: 8rem;
-	margin: 0;
+}
+
+h2{
+	font-family:  'Bahiana', cursive;
+	font-size: 100px;
+	text-shadow: 2px 2px #d6d8db;
 }
 
 li{
@@ -23,13 +38,38 @@ li{
 	margin-right: 1rem;
 }
 
-nav{
+span{
+
+color: #8000ff;
 
 }
 
 ul{
 /*	built-in css of ul
 */	-webkit-padding-start: 0px;
+}
+
+.artistsblock-10{
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-size: 4.8rem;
+    line-height: 5.2rem;
+    margin-top: 0rem;
+    font-style: bold;
+    font-family: 'Anton', sans-serif;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+.artists{
+
+}
+
+.backgroundartists{
+	background: url(images/ezgif.com-gif-maker2.gif) no-repeat top center fixed;
+	background-size: 100% 45rem;
 }
 
 .backgroundinfo{
@@ -39,13 +79,9 @@ ul{
    height: 1000px;
 }
 
-.twocolumns{
-	position: relative;
-	margin: 0 auto;
-	margin-left: 15%;
-	margin-top: 10%;
-    width: 87%;
-    clear: both;
+.backgroundstages {
+	background: url(images/ezgif.com-gif-maker.gif) no-repeat top center fixed;
+	background-size: 100% 45rem;
 }
 
 .backgroundother{
@@ -79,11 +115,13 @@ background: url("images/noninvert.png");
 	float: left;
 }
 
-.img-container{
-
+.containerartists{
+	padding-top: 5%;
+	margin-left: 12%;
+	margin-right: 12%;
 }
 
-.container{
+.containerinfo{
 	padding-top: 3%;
 	margin-left: 3%;
 	margin-right: 3%;
@@ -91,80 +129,106 @@ background: url("images/noninvert.png");
 	padding-bottom: 5%;
 }
 
-.nav li{
-	display: inline;
+.containerstages{
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.dateloc p{
+	font-family:  'Bahiana', cursive;
+	font-size: 30px;
 }
 
 .highheight{
 	height: 2000px;
 }
 
-/*// Form*/
-
-form {
-  /* Just to center the form on the page */
-  margin: 0 auto;
-  width: 90%;
-  /* To see the outline of the form */
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  background-color: black;
-  /*background: url(images/geometrica.png) no-repeat top center fixed;*
- /* background-color: #C4979D;*/
-/*  background-size: 100% 45rem;*/
-  height: 400px;
+.nav a{
+	color: white;
 }
 
-form div + div {
-  margin-top: 2em;
+.nav li{
+	display: inline;
+	color: white;
 }
 
-label {
-  /* To make sure that all labels have the same size and are properly aligned */
-  display: inline-block;
-  width: 90px;
-  text-align: right;
-  font-size: 10em;
+/*.nav li{
+	display: inline;
+	margin-left: 3%;
+	margin-right: 3%;
+}*/
+
+.stages {
+	display:block;	
 }
 
-input, textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
-  font: 1em sans-serif;
-
-  /* To give the same size to all text fields */
-  width: 50%;
-  box-sizing: border-box;
-
-  /* To harmonize the look & feel of text field border */
-  border: 1px solid #999;
-
-
-    background: transparent;
-    border: none;
-    color: white;
-    font-family: 'Bahiana', cursive;
+#stageimg1{
+	background-image: url("images/rainbow_startup.jpg");
+	background-size: 100% 100%;
+	height:437.5px;
+	width: 937.5px;
+	position: relative;
+	margin: 0 auto;
 }
 
-input:focus, textarea:focus {
-  /* To give a little highlight on active elements */
-  border-color: #000;
+#stageimg2{
+	background-image: url("images/ozorastage.jpg");
+	background-size: 100% 100%;
+	height:437.5px;
+	width: 937.5px;
+	position: relative;
+	margin: 0 auto;
 }
 
-textarea {
-  /* To properly align multiline text fields with their labels */
-/*  font-size: 7em;*/
-  vertical-align: top;
-
-  /* To give enough room to type some text */
-  height: 8em;
+#stageimg3{
+	background-image: url("images/boomstage.jpg");
+	background-size: 100% 100%;
+	height:437.5px;
+	width: 937.5px;
+	position: relative;
+	margin: 0 auto;
 }
 
-.button {
-  /* To position the buttons to the same position of the text fields */
-  padding-left: 90px; /* same size as the label elements */
+#stagetext1 {
+	z-index: 100;
+	position: absolute;
+	color: white;
+	font-size: 100px;
+	left:300px;
+	top: 175px;
 }
+
+#stagetext2 {
+	z-index: 100;
+	position: absolute;
+	color: white;
+	font-size: 100px;
+	left:200px;
+	top: 175px;
+}
+
+#stagetext3 {
+	z-index: 100;
+	position: absolute;
+	color: white;
+	font-size: 100px;
+	left:250px;
+	top: 175px;
+}
+
+.twocolumns{
+	position: relative;
+	margin: 0 auto;
+	margin-left: 15%;
+	margin-top: 10%;
+    width: 87%;
+    clear: both;
+}
+
+/*// form */
 
 button {
   /* This extra margin represent roughly the same space as the space
@@ -172,13 +236,63 @@ button {
   margin-left: .5em;
 }
 
+form {
+  margin: 0 auto;
+  width: 90%;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: black;
+  height: 500px;
+}
+
+form div + div {
+  margin-top: 2em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  font-size: 10em;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 50%;
+  box-sizing: border-box;
+  border: 1px solid #999;
+   background: transparent;
+   border: none;
+   color: white;
+   font-family: 'Bahiana', cursive;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 8em;
+}
+
+.button {
+  padding-left: 90px; 
+}
+
 #mail{
 	font-size: 10em;
 	height: 1em;
 }
 
- #map {
+#map {
         height: 400px;
         width: 100%;
        }
 
+/*undefined class
+*/
+.img-container{
+
+}
