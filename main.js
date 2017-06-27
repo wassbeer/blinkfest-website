@@ -1,47 +1,54 @@
 $(document).ready(function(){ 
 
- $(".nav li").hover(
-// function 1 of 2 is declared for when mouse enters
+var x = 4; 
+var y = 3;
+
+
+ $("a").hover(
 	function() {
-	// the color property of .nav li will turn red so its text will
-	//$(this).fadeOut(100);
+
 	$(this).css("text-decoration", "underline");
-	// a comma indicated the border between the first and the second function
 	}, 
-	// a second function is declared
 	function(){
-	// changing the color back to black when mouse leaves
-	// $(this).fadeIn(5000);
+	$(this).css("text-decoration", "none");
+	});
+
+  $(".backgroundother").mouseenter(
+	function() {
+	x = x + 1;
+  	if(x%5===0){
+	$(this).css("background", "url('images/noninvert.png')");
+	// }
+}else{$(this).css("background", "url('images/invert.png')")}}
+	);
+
+  $(".backgroundone").mouseenter(
+	function() {
+	y = y + 1;
+  	console.log(y);
+  	if(y%5===0){
+	$(this).css("background", "url('images/invert.png')");
+}else{$(this).css("background", "url('images/noninvert.png')")}}
+	);
+
+$(".nav li").hover(
+	function() {
+	$(this).css("text-decoration", "underline");
+	}, 
+	function(){
 	$(this).css("text-decoration", "none");
 	});
 
 
  $("span a").hover(
-// function 1 of 2 is declared for when mouse enters
 	function() {
-	// the color property of .nav li will turn red so its text will
-	//$(this).fadeOut(100);
 	$(this).css("color", "white");
-	// a comma indicated the border between the first and the second function
 	}, 
-	// a second function is declared
 	function(){
-	// changing the color back to black when mouse leaves
-	// $(this).fadeIn(5000);
+
 	$(this).css("color", "#8000ff");
 	});
 
-
-
-
-
-//  $("span").mouseenter(
-// // function 1 of 2 is declared for when mouse enters
-// 	function() {
-// 	// the color property of .nav li will turn red so its text will
-// 	//$(this).fadeOut(100);
-// 	$(this).css("color", "white");
-// 	// a comma indicated the border between the first and the second function
-// 	});
-
 	}); 
+
+
