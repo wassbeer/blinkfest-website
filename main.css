@@ -18,16 +18,17 @@ h1{
 	font-size: 8rem;
 }
 
+/*h1{
+	font-family:  'Bahiana', cursive;
+	font-size: 100px;
+	text-shadow: 2px 2px #d6d8db;
+}*/
+
 li{
 	font-size: 7rem;
 	font-family: 'Bahiana', cursive;
 	margin-left: 1rem;
 	margin-right: 1rem;
-}
-
-nav{
-
-
 }
 
 span{
@@ -59,10 +60,36 @@ color: #8000ff;
 		background-size: 100% 45rem;
 }
 
-.container{
+.backgroundstages {
+	background: url(images/ezgif.com-gif-maker.gif) no-repeat top center fixed;
+	background-size: 100% 45rem;
+}
+
+.containerartists{
 	padding-top: 5%;
 	margin-left: 12%;
 	margin-right: 12%;
+}
+
+.containerstages{
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.dateloc p{
+	font-family:  'Bahiana', cursive;
+	font-size: 30px;
+}
+
+.highheight{
+	height: 2000px;
+}
+
+.nav a{
+	color: white;
 }
 
 .nav li{
@@ -70,11 +97,67 @@ color: #8000ff;
 	color: white;
 }
 
-.nav a{
-	color: white;
+/*.nav li{
+	display: inline;
+	margin-left: 3%;
+	margin-right: 3%;
+}*/
+
+.stages {
+	display:block;	
 }
 
-.highheight{
-	height: 2000px;
+#stageimg1{
+	background-image: url("images/rainbow_startup.jpg");
+	background-size: 100% 100%;
+	height:437.5px;
+	width: 937.5px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#stageimg2{
+	background-image: url("images/ozorastage.jpg");
+	background-size: 100% 100%;
+	height:437.5px;
+	width: 937.5px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#stageimg3{
+	background-image: url("images/boomstage.jpg");
+	background-size: 100% 100%;
+	height:437.5px;
+	width: 937.5px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#stagetext1 {
+	z-index: 100;
+	position: absolute;
+	color: white;
+	font-size: 100px;
+	left:300px;
+	top: 175px;
+}
+
+#stagetext2 {
+	z-index: 100;
+	position: absolute;
+	color: white;
+	font-size: 100px;
+	left:200px;
+	top: 175px;
+}
+
+#stagetext3 {
+	z-index: 100;
+	position: absolute;
+	color: white;
+	font-size: 100px;
+	left:250px;
+	top: 175px;
 }
 
