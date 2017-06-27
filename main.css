@@ -8,21 +8,10 @@ a{
 }
 
 body{
-	/* 1. background: url("https://img0.etsystatic.com/137/1/8946997/il_340x270.1005409272_em8v.jpg") no-repeat top center fixed;
-    background-size: 100% 38rem;*/
-  /*background: url(https://media.giphy.com/media/13QslXgKOQzmhy/giphy.gif) no-repeat top center fixed;*/
-    /* 3. background: url(https://media.giphy.com/media/wleYLKWXEGudi/giphy.gif) no-repeat top center fixed;*/
-   /* background: url( https://media.giphy.com/media/gw3RX8HWJygFr5pC/giphy.gif) no-repeat top center fixed;*/
-  /* background: url( https://media.giphy.com/media/3o7bu9zwfieCd1R9HG/giphy.gif) no-repeat top center fixed;*/
-   /*background: url(images/ezgif.com-crop.gif) no-repeat top center fixed;*/
-   background: url(images/ezgif.com-gif-maker2.gif) no-repeat top center fixed;
-/*background: url(images/ezgif.com-crop_1.gif) no-repeat top center fixed;*/
-/*background: url(https://media.giphy.com/media/l3vRbTrGdpZrjjco8/giphy.gif) no-repeat top center fixed;*/
-/*background: url(images/source.gif) no-repeat top center fixed;*/
-    background-size: 100% 45rem;
 	font-family: 'Bahiana', cursive;
 	text-align: center;
 	color: white;
+	margin: 0 0;
 }
 
 h1{
@@ -63,6 +52,11 @@ color: #8000ff;
 
 .artists{
 
+}
+
+.backgroundartists{
+		background: url(images/ezgif.com-gif-maker2.gif) no-repeat top center fixed;
+		background-size: 100% 45rem;
 }
 
 .container{
