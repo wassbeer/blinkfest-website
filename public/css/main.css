@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    /*text-decoration: none;
-	color: white;*/
 }
 
 a{
@@ -25,12 +23,6 @@ h1{
 	font-size: 8rem;
 }
 
-/*h2{
-	font-family:  'Bahiana', cursive;
-	font-size: 100px;
-	text-shadow: 2px 2px #d6d8db;
-}*/
-
 li{
 	font-size: 7rem;
 	font-family: 'Bahiana', cursive;
@@ -45,8 +37,7 @@ color: #8000ff;
 }
 
 ul{
-/*	built-in css of ul
-*/	-webkit-padding-start: 0px;
+	-webkit-padding-start: 0px;
 }
 
 .artistsblock-10{
@@ -62,31 +53,37 @@ ul{
     font-family: 'Anton', sans-serif;
 }
 
-
 .artists{
 
 }
 
 .backgroundartists{
-	background: url(images/ezgif.com-gif-maker2.gif) no-repeat top center fixed;
-	background-size: 100% 45rem;
+	background-color: turquoise;
+/*	background: url("images/ezgif.com-gif-maker2.gif") no-repeat top center fixed;
+	background-size: 100% 45rem;*/
 }
 
 .backgroundhome {
-	background: url(images/ezgif.com-gif-maker.gif) no-repeat top center fixed;
-	background-size: 100% 45rem;
+	background-color: turquoise;
+	/*
+background: url("images/ezgif.com-gif-maker.gif") no-repeat top center fixed;
+	background-size: 100% 45rem;*/
 }
 
-.backgroundinfo{
 
-   background: url(images/ezgif.com-gif-maker2.gif) no-repeat top center fixed;
+
+
+.backgroundinfo{
+	background-color: turquoise;
+/*   background: url("images/ezgif.com-gif-maker2.gif") no-repeat top center fixed;
    background-size: 100% 45rem;
-   height: 1000px;
+   height: 1000px;*/
 }
 
 .backgroundstages {
-	background: url(images/ezgif.com-gif-maker.gif) no-repeat top center fixed;
-	background-size: 100% 45rem;
+	background-color: turquoise;
+/*	background: url("images/ezgif.com-gif-maker.gif") no-repeat top center fixed;
+	background-size: 100% 45rem;*/
 }
 
 .backgroundother{
@@ -107,7 +104,6 @@ background: url("images/noninvert.png");
 .columnone{
 	height: 500px;
 	width: 40%;
-	/*border: solid 5px;*/
 	display: inline;
 	float: left;
 }
@@ -115,8 +111,7 @@ background: url("images/noninvert.png");
 .columntwo{
 	height: 500px;
 	width: 40%;
-/*	border: solid 5px;
-*/	display: inline;
+  display: inline;
 	float: left;
 }
 
@@ -159,12 +154,6 @@ background: url("images/noninvert.png");
 	display: inline;
 	color: white;
 }
-
-/*.nav li{
-	display: inline;
-	margin-left: 3%;
-	margin-right: 3%;
-}*/
 
 .stages {
 	display:block;	
@@ -267,11 +256,7 @@ background: url("images/noninvert.png");
     clear: both;
 }
 
-/*// form */
-
 button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
   margin-left: .5em;
 }
 
@@ -330,8 +315,6 @@ textarea {
         width: 100%;
        }
 
-/*undefined class
-*/
 .img-container{
 
 }
